@@ -40,19 +40,19 @@
 }
 
 .header__info--role::before {
-    background-image: url('/assets/images/icons/Role.svg');
+    background-image: url('../images/icons/Role.svg');
 }
 
 .header__info--location::before {
-    background-image: url('/assets/images/icons/Location.svg');
+    background-image: url('../images/icons/Location.svg');
 }
 
 .header__info--telephone::before {
-    background-image: url('/assets/images/icons/Telephone.svg');
+    background-image: url('../images/icons/Telephone.svg');
 }
 
 .header__info--email::before {
-    background-image: url('/assets/images/icons/Email.svg');
+    background-image: url('../images/icons/Email.svg');
 }
 
 @media screen and (max-width: 500px) {
@@ -82,7 +82,7 @@
 
     .header__title {
         grid-area: title;
-        text-align: start;
+        text-align: ce;
         max-width: 250px;
     }
 
