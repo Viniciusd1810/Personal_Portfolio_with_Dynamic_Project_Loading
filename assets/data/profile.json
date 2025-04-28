@@ -1,0 +1,79 @@
+{
+  "name": "Vinicius D. Silva",
+  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
+  "job": "Front-End Junior Developer",
+  "location": "São Paulo - SP",
+  "phone": "(19) 99002-3406",
+  "email": "viniciusd1810@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/main/assets/images/icons/Skills/HTML.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/main/assets/images/icons/Skills/CSS.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/main/assets/images/icons/Skills/JavaScript.svg"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/main/assets/images/icons/Skills/React.svg"
+      }
+    ],
+    "softSkills": [
+      "Clear Communication",
+      "Discipline and Persistence",
+      "Analytical Thinking",
+      "Curiosity and Willingness to Learn",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Portuguese BR (Fluent)",
+    "English (Intermediary B1)",
+    "Espanol (Basic)",
+  ],
+  "portfolio": [
+    {
+      "name": "Personal Portfolio with Dynamic Project Loading",
+      "url": "https://github.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading",
+      "github": true
+    },
+    {
+      "name": "Pokedex With PokeAPI",
+      "url": "https://github.com/Viniciusd1810/Pokedex_With_JavaScript_And_PokeAPI",
+      "github": true
+    },
+    {
+      "name": "HBO MAX Clone with CSS",
+      "url": "https://github.com/Viniciusd1810/HBO_Max_CSS_Clone",
+      "github": true
+    },
+    {
+      "name": "Discord Site Clone With CSS",
+      "url": "https://github.com/Viniciusd1810/Discord_Site_Clone_With_CSS",
+      "github": true
+    },
+    {
+      "name": "Coffee Shop Webpage With Bootstrap",
+      "url": "https://github.com/Viniciusd1810/Coffee_Shop_Webpage_With_Bootstrap",
+      "github": true
+    },
+    {
+      "name": "Youtube Clone With CSS",
+      "url": "https://github.com/Viniciusd1810/Youtube_Clone_With_CSS",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Manager | Family-Owned Restaurant (Self-employed)",
+      "period": "Aug. 2016 - Present",
+      "description": "Responsible for overseeing the restaurant's daily operations, including customer service, quality control, and team leadership. Manage financial activities such as cash flow control, budgeting, and cost-reduction strategies. Handle supplier relationships, ensuring the availability and quality of supplies while negotiating favorable terms. Constantly focused on optimizing processes and enhancing the customer experience."
+    }
+  ]
+}
