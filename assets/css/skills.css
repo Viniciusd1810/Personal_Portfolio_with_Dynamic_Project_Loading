@@ -1,12 +1,12 @@
 .skills {
     display: flex;
     flex-direction: column;
-    text-align: ;
+    text-align: center;
 }
 
 .skills__tools ul {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
     padding: .5rem;
@@ -22,7 +22,8 @@
 }
 
 .skills__tools img {
-    max-width: 100px;
+    max-width: 80px;
+    max-height: 80px;
     margin: .5rem;
 }
 
