@@ -1,4 +1,50 @@
 .skills {
     display: flex;
     flex-direction: column;
+    text-align: ;
+}
+
+.skills__tools ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: .5rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__tools li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills__tools img {
+    max-width: 100px;
+    margin: .5rem;
+}
+
+.skills_personal ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills_personal li {
+    margin-left: 2rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 780px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
