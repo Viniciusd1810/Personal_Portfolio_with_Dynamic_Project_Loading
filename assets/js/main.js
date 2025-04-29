@@ -37,12 +37,32 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
+function updateEducations(profileData) {
+    const educations = document.getElementById('profile.education')
+    educations.innerHTML = profileData.educations.map(education => `
+        <li>
+            <span class="education__title">${education.name}</span>
+            <span class="education__period">${education.period}</span>
+            <p>${education.description}</p>
+        </li>`).join('')
+}
+
 function updateProjects(profileData) {
     const projects = document.getElementById('profile.projects')
     projects.innerHTML = profileData.projects.map(project => `    
         <li>
             <span class="projects__title github">${project.name}</span>
             <a href="${project.url}" target="_blank">${project.name}</a>
+        </li>`).join('')
+}
+
+function updateProfessionalExperience(profileData) {
+    const professionalExperience = document.getElementById('profile.professionalExperience')
+    professionalExperience.innerHTML = profileData.professionalExperience.map(experience => `    
+        <li>
+            <span class="professionalExperience__title">${experience.name}</span>
+            <span class="professionalExperience__period">${experience.period}</span>
+            <p>${experience.description}</p>
         </li>`).join('')
 }
 
@@ -54,5 +74,7 @@ function updateProjects(profileData) {
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updateProjects(profileData)
+    updateProfessionalExperience(profileData)
+    updateEducations(profileData)
 })()
 

@@ -37,6 +37,28 @@
     "English (Intermediary B1)",
     "Espanol (Basic)"
   ],
+  "educations": [
+    {
+      "name": "Programming Logic Formation",
+      "period": "Digital Innovation One (DIO) — 41h",
+      "description": "Learned fundamental programming concepts such as algorithms, control structures (if-else, loops), variables, functions, and best coding practices."
+    },
+    {
+      "name": "HTML Developer Formation",
+      "period": "Digital Innovation One (DIO) — 21h",
+      "description": "Acquired skills to build structured and semantic web pages using HTML5. Learned best practices for accessibility, SEO basics, and clean code structuring."
+    },
+    {
+      "name": "CSS Developer Formation",
+      "period": "Digital Innovation One (DIO) — 43h)",
+      "description": "Developed skills in styling web pages using CSS3, including responsive layouts, Flexbox, Grid, animations, and modern design practices."
+    },
+    {
+      "name": "Technologist in Systems Analysis and Development",
+      "period": "Digital Innovation One (DIO) — 39h",
+      "description": "Studied the basics of JavaScript including variables, functions, arrays, objects, DOM manipulation, and event handling. Applied concepts to create dynamic and interactive web pages."
+    }
+  ],
   "projects": [
     {
       "name": "Personal Portfolio with Dynamic Project Loading",

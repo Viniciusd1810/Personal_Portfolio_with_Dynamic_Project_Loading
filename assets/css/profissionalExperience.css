@@ -1,4 +1,4 @@
-.profissionalExperience {
+.professionalExperience {
     margin: 0;
     padding: 0;
     display: flex;
@@ -7,13 +7,13 @@
     text-align: center;
 }
 
-.profissionalExperience li {
+.professionalExperience li {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.profissionalExperience__title {
+.professionalExperience__title {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -22,7 +22,7 @@
     margin-bottom: .5rem;
 }
 
-.profisisonalExperience__period {
+.professionalExperience__period {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -31,7 +31,7 @@
     margin-bottom: .5rem;
 }
 
-.profisisonalExperience__period::before {
+.professionalExperience__period::before {
     content: "";
     display: inline-block;
     width: 1rem;
@@ -43,7 +43,7 @@
     margin-right: .25rem;
 }
 
-.profissionalExperience p {
+.professionalExperience p {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
