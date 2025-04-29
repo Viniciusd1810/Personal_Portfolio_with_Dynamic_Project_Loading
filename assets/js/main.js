@@ -38,7 +38,7 @@ function updateLanguages(profileData) {
 }
 
 function updateEducations(profileData) {
-    const educations = document.getElementById('profile.education')
+    const educations = document.getElementById('profile.educations')
     educations.innerHTML = profileData.educations.map(education => `
         <li>
             <span class="education__title">${education.name}</span>

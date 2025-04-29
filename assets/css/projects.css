@@ -41,6 +41,8 @@
     display: inline-block;
     width: 1rem;
     height: 1rem;
+    min-width: 48px;
+    min-width: 48px;
     background: url(../images/icons/github.svg);
     background-size: contain;
     background-repeat: no-repeat;
