@@ -37,7 +37,12 @@
     "English (Intermediary B1)",
     "Espanol (Basic)"
   ],
-  "educations": [
+  "education": [
+    {
+      "name": "Technologist in Systems Analysis and Development",
+      "period": "Faculdade Anhanguera — Campinas, SP (Feb. 2019 – Jun. 2025)",
+      "description": "Studied the basics of JavaScript including variables, functions, arrays, objects, DOM manipulation, and event handling. Applied concepts to create dynamic and interactive web pages."
+    },
     {
       "name": "Programming Logic Formation",
       "period": "Digital Innovation One (DIO) — 41h",
@@ -54,8 +59,8 @@
       "description": "Developed skills in styling web pages using CSS3, including responsive layouts, Flexbox, Grid, animations, and modern design practices."
     },
     {
-      "name": "Technologist in Systems Analysis and Development",
-      "period": "Digital Innovation One (DIO) — 39h",
+      "name": "JavaScript Developer Formation",
+      "period": "Digital Innovation One (DIO) — 39h)",
       "description": "Studied the basics of JavaScript including variables, functions, arrays, objects, DOM manipulation, and event handling. Applied concepts to create dynamic and interactive web pages."
     }
   ],
