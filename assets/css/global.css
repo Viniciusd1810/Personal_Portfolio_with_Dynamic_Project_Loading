@@ -22,6 +22,8 @@
 :root {
     color: white;
     background: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
