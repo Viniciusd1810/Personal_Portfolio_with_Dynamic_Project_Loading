@@ -52,7 +52,7 @@ function updateProjects(profileData) {
     projects.innerHTML = profileData.projects.map(project => `    
         <li>
             <span class="projects__title github">${project.name}</span>
-            <a href="${project.url}" target="_blank">${project.name}</a>
+            <a href="${project.url}" target="_blank">Link to Project</a>
         </li>`).join('')
 }
 
