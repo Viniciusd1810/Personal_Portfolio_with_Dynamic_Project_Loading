@@ -27,14 +27,15 @@
     flex-direction: row;
     align-items: center;
     font-size: 1.125rem;
+    padding: .25rem;
 }
 
 .header__info p::before {
     content: '';
     margin-right: .5rem;
     display: inline-block;
-    width: 1rem;
-    height: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
     background-size: contain;
     background-repeat: no-repeat;
 }
