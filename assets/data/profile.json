@@ -66,6 +66,11 @@
   ],
   "projects": [
     {
+      "name": "Calculator with React",
+      "url": "https://github.com/Viniciusd1810/calculator_with_react",
+      "github": true
+    },
+    {
       "name": "Personal Portfolio with Dynamic Project Loading",
       "url": "https://github.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading",
       "github": true
