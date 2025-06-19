@@ -44,6 +44,11 @@
       "description": "Studied the basics of JavaScript including variables, functions, arrays, objects, DOM manipulation, and event handling. Applied concepts to create dynamic and interactive web pages."
     },
     {
+      "name": "Bachelor in Software Engineering",
+      "period": "Faculdade Anhanguera — Campinas, SP (Ago. 2025 — Jun. 2026)",
+      "description": "Comprehensive study of software engineering principles, including software development lifecycle, project management, software architecture, databases, algorithms, data structures, and agile methodologies. Emphasis on real-world applications, teamwork, and problem-solving in the field of software development."
+    },
+    {
       "name": "Programming Logic Formation",
       "period": "Digital Innovation One (DIO) — 41h",
       "description": "Learned fundamental programming concepts such as algorithms, control structures (if-else, loops), variables, functions, and best coding practices."
@@ -62,6 +67,11 @@
       "name": "JavaScript Developer Formation",
       "period": "Digital Innovation One (DIO) — 39h",
       "description": "Studied the basics of JavaScript including variables, functions, arrays, objects, DOM manipulation, and event handling. Applied concepts to create dynamic and interactive web pages."
+    },
+    {
+      "name": "React Developer Formation",
+      "period": "Digital Innovation One (DIO) — 34h",
+      "description": "Learned to build modern and efficient user interfaces using React, including concepts like components, props, state, hooks, routing, and integration with APIs. Emphasis on component reuse, performance optimization, and scalable front-end architecture."
     }
   ],
   "projects": [
