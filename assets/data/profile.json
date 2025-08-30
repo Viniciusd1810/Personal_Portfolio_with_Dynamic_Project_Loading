@@ -22,6 +22,14 @@
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/main/assets/images/icons/Skills/React.svg"
+      },
+      {
+        "name": "C#",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/refs/heads/main/assets/images/icons/Skills/C%23.svg"
+      },
+      {
+        "name": ".NET",
+        "logo": "https://raw.githubusercontent.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading/refs/heads/main/assets/images/icons/Skills/DotNet.svg"
       }
     ],
     "softSkills": [
