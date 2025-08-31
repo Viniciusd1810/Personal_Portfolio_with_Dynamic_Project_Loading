@@ -41,7 +41,6 @@ function updateEducationsAcademic(profileData) {
     const educations = document.getElementById('profile.educations.academic')
     educations.innerHTML = profileData.educations.academic.map(education => `
         <li>
-            <h3>Academic Education</h3>
             <span class="education__title">${education.name}</span>
             <span class="education__period">${education.period}</span>
             <p>${education.description}</p>
@@ -49,10 +48,9 @@ function updateEducationsAcademic(profileData) {
 }
 
 function updateEducationsCertifications(profileData) {
-    const educations = document.getElementById('profile.educations.certifications')
+    const educations = document.getElementById('profile.education.certifications')
     educations.innerHTML = profileData.educations.certifications.map(education => `
         <li>
-            <h3>Courses & Certifications</h3>
             <span class="education__title">${education.name}</span>
             <span class="education__period">${education.period}</span>
             <p>${education.description}</p>
