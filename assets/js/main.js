@@ -37,10 +37,22 @@ function updateLanguages(profileData) {
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
-function updateEducations(profileData) {
-    const educations = document.getElementById('profile.educations')
-    educations.innerHTML = profileData.educations.map(education => `
+function updateEducationsAcademic(profileData) {
+    const educations = document.getElementById('profile.educations.academic')
+    educations.innerHTML = profileData.educations.academic.map(education => `
         <li>
+            <h3>Academic Education</h3>
+            <span class="education__title">${education.name}</span>
+            <span class="education__period">${education.period}</span>
+            <p>${education.description}</p>
+        </li>`).join('')
+}
+
+function updateEducationsCertifications(profileData) {
+    const educations = document.getElementById('profile.educations.certifications')
+    educations.innerHTML = profileData.educations.certifications.map(education => `
+        <li>
+            <h3>Courses & Certifications</h3>
             <span class="education__title">${education.name}</span>
             <span class="education__period">${education.period}</span>
             <p>${education.description}</p>
