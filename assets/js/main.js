@@ -87,6 +87,7 @@ function updateProfessionalExperience(profileData) {
     updateLanguages(profileData)
     updateProjects(profileData)
     updateProfessionalExperience(profileData)
-    updateEducations(profileData)
+    updateEducationsAcademic(profileData)
+    updateEducationsCertifications(profileData)
 })()
 
