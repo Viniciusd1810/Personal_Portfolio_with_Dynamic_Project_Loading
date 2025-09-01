@@ -25,7 +25,11 @@
 }
 
 .projects a {
-    margin-bottom: .5rem;
+    margin: .5rem;
+}
+
+.projects p{
+    margin: .5rem;
 }
 
 .projects__title {

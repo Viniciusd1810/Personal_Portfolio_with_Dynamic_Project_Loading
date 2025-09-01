@@ -57,12 +57,19 @@ function updateEducationsCertifications(profileData) {
         </li>`).join('')
 }
 
+function formatString(str) {
+    return str
+        .replace(/_/g, " ")
+        .toLowerCase()
+        .replace(/\b\w/g, (char) => char.toUpperCase());
+}
+
 function updateProjects(repositoriesData) {
     const projects = document.getElementById('profile.projects')
     projects.innerHTML = repositoriesData.map(project => `    
         <li>
-            <strong>${project.name}</strong>
-            <a href=${project.html_url} target='_blank' rel="noreferrer">Link to Project</a>
+            <a href=${project.html_url} target='_blank' rel="noreferrer"><strong class="projects__title">${formatString(project.name)}</strong></a>
+            <p>${project.language}</p>
         </li>`).join('')
 }
 
