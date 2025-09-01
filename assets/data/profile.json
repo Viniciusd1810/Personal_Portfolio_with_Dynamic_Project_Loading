@@ -86,43 +86,6 @@
       }
     ]
   },
-  "projects": [
-    {
-      "name": "Calculator with React",
-      "url": "https://github.com/Viniciusd1810/calculator_with_react",
-      "github": true
-    },
-    {
-      "name": "Personal Portfolio with Dynamic Project Loading",
-      "url": "https://github.com/Viniciusd1810/Personal_Portfolio_with_Dynamic_Project_Loading",
-      "github": true
-    },
-    {
-      "name": "Pokedex With PokeAPI",
-      "url": "https://github.com/Viniciusd1810/Pokedex_With_JavaScript_And_PokeAPI",
-      "github": true
-    },
-    {
-      "name": "HBO MAX Clone with CSS",
-      "url": "https://github.com/Viniciusd1810/HBO_Max_CSS_Clone",
-      "github": true
-    },
-    {
-      "name": "Discord Site Clone With CSS",
-      "url": "https://github.com/Viniciusd1810/Discord_Site_Clone_With_CSS",
-      "github": true
-    },
-    {
-      "name": "Coffee Shop Webpage With Bootstrap",
-      "url": "https://github.com/Viniciusd1810/Coffee_Shop_Webpage_With_Bootstrap",
-      "github": true
-    },
-    {
-      "name": "Youtube Clone With CSS",
-      "url": "https://github.com/Viniciusd1810/Youtube_Clone_With_CSS",
-      "github": true
-    }
-  ],
   "professionalExperience": [
     {
       "name": "Manager | Family-Owned Restaurant (Self-employed)",
