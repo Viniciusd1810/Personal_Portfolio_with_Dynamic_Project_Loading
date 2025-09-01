@@ -57,12 +57,12 @@ function updateEducationsCertifications(profileData) {
         </li>`).join('')
 }
 
-function updateProjects(Repos) {
+function updateProjects(repositoriesData) {
     const projects = document.getElementById('profile.projects')
-    projects.innerHTML = Repos.map(repo => `    
+    projects.innerHTML = repositoriesData.map(project => `    
         <li>
-            <strong>${repo.name}</strong>
-            <a href=${repo.html_url} target='_blank' rel="noreferrer">Link to Project</a>
+            <strong>${project.name}</strong>
+            <a href=${project.html_url} target='_blank' rel="noreferrer">Link to Project</a>
         </li>`).join('')
 }
 
@@ -78,13 +78,13 @@ function updateProfessionalExperience(profileData) {
 
 (async () => {
     const profileData = await fetchProfileData()
-    const Repos = await fetchProfileRepositories()
+    const repositoriesData = await fetchProfileRepositories()
     console.log(profileData)
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
-    updateProjects(Repos)
+    updateProjects(repositoriesData)
     updateProfessionalExperience(profileData)
     updateEducationsAcademic(profileData)
     updateEducationsCertifications(profileData)
